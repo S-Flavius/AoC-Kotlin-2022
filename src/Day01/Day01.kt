@@ -1,3 +1,6 @@
+package day01
+
+import readInput
 import kotlin.math.max
 
 fun main() {
@@ -68,11 +71,11 @@ fun main() {
 
 
 // test if implementation meets criteria from the description, like:
-    val testInput = readInput("Day01/Day01_test")
+    val testInput = readInput("day01/Day01_test")
     check(part1(testInput) == 24000)
     check(part2(testInput) == 45000)
 
-    val input = readInput("Day01/Day01")
+    val input = readInput("day01/Day01")
     println("Part 1: " + part1(input))
     println("Part 2: " + part2(input))
 }
